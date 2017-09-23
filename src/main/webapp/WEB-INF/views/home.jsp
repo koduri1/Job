@@ -16,7 +16,7 @@
         			<input type="password" placeholder="Enter password" /> <br>        			
         			<input type="submit" value="Submit"/>
         			<div>New User? Register here</div>
-        			<a href="register.jsp"> Register </a> 
+        			<a href="test123.jsp"> Register </a> 
         			
         			
         			
