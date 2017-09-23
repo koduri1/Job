@@ -15,4 +15,8 @@ public class HomeController {
 	public ModelAndView test(HttpServletResponse response) throws IOException{
 		return new ModelAndView("home");
 	}
+	@RequestMapping(value="/test", Method=HttpMethod.GET)
+	public String test123(HttpServletResponse response) throws IOException{
+	return "test123";
+	}
 }
